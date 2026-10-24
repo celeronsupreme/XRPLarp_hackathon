@@ -1,0 +1,5 @@
+predictions_v12.csv = predict.py defaults: equal-weight mean of normalised ranks of
+  predictions_v9.csv  (v9/predict.py defaults, leaderboard 73.4) and
+  predictions_v11.csv (v11/predict.py defaults, leaderboard 73.3).
+predictions_v12_alt_mean.csv  = --method mean  (weighted mean of scores, w_v9 = 0.5)
+predictions_v12_alt_logit.csv = --method logit (weighted mean of log-odds, w_v9 = 0.5)

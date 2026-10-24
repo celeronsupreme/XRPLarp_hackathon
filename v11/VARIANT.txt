@@ -1,0 +1,3 @@
+predictions_v11.csv = predict.py defaults (v8 features + second-hop neighbour features; LightGBM + XGBoost, 5 seeds; pweighted smoothing 0.85)
+predictions_v11_alt_pweighted_sw070.csv = SMOOTH_WEIGHT=0.7
+predictions_v11_alt_flat.csv = SMOOTH_MODE=flat, SMOOTH_WEIGHT=0.7

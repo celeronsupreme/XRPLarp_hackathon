@@ -1,0 +1,1 @@
+predictions_v9.csv = predict.py defaults (FEATS = v8 + softbal + acctbal + typed; BLEND=linear, SMOOTH_MODE=pweighted, SMOOTH_WEIGHT=0.85, PWEIGHT_MIN=0.5, XR_SMOOTH=0)
